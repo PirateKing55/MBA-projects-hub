@@ -80,7 +80,7 @@ export const LandingPage = () => {
                                 </div>
                             </div>
                             <p className="mt-4 text-slate-500">
-                                "The product has exceeded my expectations. It's easy to use and has helped me streamline my workflow."
+                                &quot;The product has exceeded my expectations. It&apos;s easy to use and has helped me streamline my workflow.&quot;
                             </p>
                         </div>
                         <div className="rounded-lg border border-blue-500 bg-white p-6 shadow-sm transition-all hover:shadow-md dark:bg-gray-900">
@@ -95,8 +95,8 @@ export const LandingPage = () => {
                                 </div>
                             </div>
                             <p className="mt-4 text-slate-500">
-                                "I'm amazed by the level of customer support. They were always there to help me whenever I had a
-                                question."
+                                &quot;I&apos;m amazed by the level of customer support. They were always there to help me whenever I had a
+                                question.&quot;
                             </p>
                         </div>
                         <div className="rounded-lg border border-blue-500 bg-white p-6 shadow-sm transition-all hover:shadow-md dark:bg-gray-900">
@@ -111,7 +111,7 @@ export const LandingPage = () => {
                                 </div>
                             </div>
                             <p className="mt-4 text-slate-500">
-                                "The product is incredibly versatile and has helped me achieve my business goals. I highly recommend it."
+                                &quot;The product is incredibly versatile and has helped me achieve my business goals. I highly recommend it.&quot;
                             </p>
                         </div>
                     </div>

@@ -49,13 +49,12 @@ export const Header = ({ router }) => {
                     <Link href="/projects/all/all/all/1">
                         <span className="cursor-pointer">Projects</span>
                     </Link>
-                    <span>//</span>
+                    <span>||</span>
                     <Link href="/contact">
                         <span className="cursor-pointer">Contact</span>
                     </Link>
                 </div>
                 <div className="relative">
-                    {/* <div className="hidden md:block absolute left-[-170px]"><Image src={closure} alt="closure" width={150} height={150} /></div> */}
                     <div className={`${width < 460 ? "text-2xl" : "text-4xl"} mb-8 sm:text-5xl font-bold text-white`}>
                         We specialize in expert tailored <span className="relative">
                             <Image className="absolute top-[-20px] right-[-40px]" src={shining} alt="stars" width={50} height={50} />
@@ -63,9 +62,6 @@ export const Header = ({ router }) => {
                         </span> projects.
                     </div>
                 </div>
-                {/* <div className="flex justify-stretch items-center">
-                    <FilterComponent array={specializations} isLoaded={isLoaded} />
-                </div> */}
                 <div className="relative">
                     <Link href="/projects/all/all/all/1">
                         <button className="bg-white active:scale-105 text-blue-500 px-5 py-2 rounded-lg font-semibold hover:scale-105 transition text-lg duration-200">Projects</button>
